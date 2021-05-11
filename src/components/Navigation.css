@@ -1,0 +1,22 @@
+.navigation{
+    display : flex;
+    flex-direction: column;
+    align-content: flex-start;
+    position : fixed;
+    margin : 5px;
+}
+
+.navigation a{
+    text-decoration: none;
+    padding : 10px;
+    background-color: white;
+    width:100px;
+    font-weight:300;
+    margin-bottom:3px;
+    margin-right: 100px;
+    border-radius: 5px;
+    z-index: 500;
+    color:#adaeb9;
+    box-shadow: 0 30px 60px -12px rgba(50,50,93,0.25),
+    0 18px 36px -18px rgba(0,0,0,0.3), 0 -12px 36px -8px rgba(0,0,0,0.25);
+}
